@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+	background: rgb(3, 3, 44);
+	color: #EDE53E;
+	font-size: 30px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+	align-items: center;
+    gap: 20px;
+}
+
+button {
+    border-radius: 10em;
+    background: #526FEE;
+    color: #EDE53E;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 0.6em;
+    margin-bottom: 30px;
+}
+
+button:hover {
+	background: #232d70;
+	cursor: pointer;
+}
